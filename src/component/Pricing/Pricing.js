@@ -261,7 +261,7 @@ const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-800">Unlimited deploys</p>
+                  <p className="font-medium text-gray-800">Unlimited Support</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
@@ -311,7 +311,7 @@ const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-800">100 GB of starge</p>
+                  <p className="font-medium text-gray-800">Lifetime Access</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
@@ -359,7 +359,7 @@ const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-800">Global CDN</p>
+                  <p className="font-medium text-gray-800">Special Technical Support</p>
                 </li>
               </ul>
             </div>
