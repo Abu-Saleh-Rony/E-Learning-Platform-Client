@@ -34,7 +34,7 @@ const Pricing = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">Transparent</span>
+            <span className="relative">Low pricing of our corses</span>
           </span>{' '}
           pricing. Pay as you grow.
         </h2>
