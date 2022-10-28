@@ -123,7 +123,7 @@ const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-800">10 GB of storage</p>
+                  <p className="font-medium text-gray-800">Lifetime Access</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
