@@ -34,9 +34,9 @@ const Pricing = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">Low pricing of our corses</span>
+            <span className="relative">Low pricing</span>
           </span>{' '}
-          pricing. Pay as you grow.
+          Pay as first as so you can learn quality courses.
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Our Courses prices is more competitive less prices than any other Learning Platform.
