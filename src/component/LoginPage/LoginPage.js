@@ -66,7 +66,6 @@ const LoginPage = () => {
         swal("Login successful!", "You can visit now!", "success");
       })
       .catch((error) => {
-        console.log(error);
         const errorMessage = error.errorMessage;
         setError(errorMessage);
         swal("Wrong!", "Please try again letter", "warning");
