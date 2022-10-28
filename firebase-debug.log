@@ -1,0 +1,44 @@
+[debug] [2022-10-27T16:10:21.743Z] ----------------------------------------------------------------------
+[debug] [2022-10-27T16:10:21.746Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-27T16:10:21.746Z] CLI Version:   11.15.0
+[debug] [2022-10-27T16:10:21.747Z] Platform:      win32
+[debug] [2022-10-27T16:10:21.747Z] Node Version:  v16.15.1
+[debug] [2022-10-27T16:10:21.747Z] Time:          Thu Oct 27 2022 22:10:21 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-10-27T16:10:21.748Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-27T16:10:21.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-27T16:10:21.838Z] > authorizing via signed-in user (abusalehrony12@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Projects-correct\E-Learning Platform
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-27T16:12:18.767Z] Using project from CLI flag: assignment-10-client-9b3e8
+[debug] [2022-10-27T16:12:18.771Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment-10-client-9b3e8 [none]
+[debug] [2022-10-27T16:12:19.550Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment-10-client-9b3e8 403
+[debug] [2022-10-27T16:12:19.551Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment-10-client-9b3e8 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-10-27T16:12:19.554Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-10-27T16:12:19.924Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project assignment-10-client-9b3e8. Please make sure the project exists and your account has permission to access it.
