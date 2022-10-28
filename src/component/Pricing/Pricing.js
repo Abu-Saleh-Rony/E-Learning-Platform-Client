@@ -98,7 +98,7 @@ const Pricing = () => {
                     </svg>
                   </div>
                   <p className="font-medium text-gray-800">
-                    10 deploys per day
+                    10 quizes per day
                   </p>
                 </li>
                 <li className="flex items-center">
@@ -147,7 +147,7 @@ const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-800">Unlimited domains</p>
+                  <p className="font-medium text-gray-800">Unlimited support daily three times</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
@@ -171,7 +171,7 @@ const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-800">SSL Certificates</p>
+                  <p className="font-medium text-gray-800">SCIC Certificates</p>
                 </li>
               </ul>
             </div>
